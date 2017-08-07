@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JiaXin's Blog</title>
+    <script>
+        function draw(id) {
+            var canvas = document.getElementById(id);
+            if (canvas == null) return false;
+            var ctx = canvas.getContext('2d');
+            ctx.beginPath();
+            ctx.moveTo(75, 40);
+            ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
+            ctx.bezierCurveTo(20, 25, 22, 62.5, 22, 55);
+            ctx.bezierCurveTo(20, 80, 40, 102, 75, 120);
+            ctx.bezierCurveTo(110, 102, 130, 80, 128, 55);
+            ctx.bezierCurveTo(128, 55, 130, 25, 100, 25);
+            ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
+            var gradient = ctx.createRadialGradient(0, 0, 0, 0, 0, 150);
+            gradient.addColorStop(0, "rgba(244,28,285,0.5)");
+            gradient.addColorStop(1, "rgba(255,255,255,1)");
+            ctx.fillStyle = gradient;
+            ctx.fill();
+        }
+    </script>
 </head>
+
 <body>
-    <h1>宝贝儿，我爱你！啦啦啦啦啦~~~</h1>
+    <p>
+        <canvas id="myCanvas" width=300 height=300></canvas>
+    </p>
 </body>
+<script type="text/javascript">
+    draw("myCanvas");
+</script>
+
 </html>
