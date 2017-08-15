@@ -3,42 +3,107 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JiaXin's Blog</title>
-    <script>
-        function draw(id) {
-            var canvas = document.getElementById(id);
-            if (canvas == null) return false;
-            var ctx = canvas.getContext('2d');
-            ctx.beginPath();
-            ctx.moveTo(75, 40);
-            ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
-            ctx.bezierCurveTo(20, 25, 22, 62.5, 22, 55);
-            ctx.bezierCurveTo(20, 80, 40, 102, 75, 120);
-            ctx.bezierCurveTo(110, 102, 130, 80, 128, 55);
-            ctx.bezierCurveTo(128, 55, 130, 25, 100, 25);
-            ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
-            var gradient = ctx.createRadialGradient(0, 0, 0, 0, 0, 150);
-            gradient.addColorStop(0, "rgba(244,28,285,0.5)");
-            gradient.addColorStop(1, "rgba(255,255,255,1)");
-            ctx.fillStyle = gradient;
-            ctx.fill();
-        }
-    </script>
+    <title>JiaXin'Blog</title>
+    <link rel="shortcut icon" href="images/logo.png"type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <p>
-        <canvas id="myCanvas" width=300 height=300></canvas>
-    </p>
-    <p>“If you’re good at something, never do it for free.”
-        <br/> —The Joker 
-        <br/>(but that doesn’t mean you should keep it to yourself)
-    </p>
+    <header class="main-header">
+        <img src="images/logo.png" alt="易" width="50" height="50">
+        <ul class="menu">
+            <li data-pos="840">作品</li>
+            <li data-pos="1400">联系</li>
+            <div class="slide-block"></div>
+        </ul>
+    </header>
+    <section class="summary" id="summary">
+        <img src="images/logo.png" alt="">
+        <h2>JiaXin'Blog</h2>
+        <span class="sub-title">JiaXin</span>
+        <p>" If you're good at something, never do it for free. "
+            <br/> —The Joker
+        </p>
+    </section>
+    <section class="works" id="works">
+        <div class="title">
+            作品
+            <p class="sub-title">works</p>
+        </div>
+        <ul class="work-list">
+            <li>
+                <a href="" target="_blank">
+                    <div class="content">
+                        <img src="images/logo.png" alt=" ">
+                        <div class="desc ">
+                            Card
+                            <p class="sub-title ">一个名片设计工具</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href=" " target="_blank ">
+                    <div class="content ">
+                        <img src="images/logo.png " alt=" ">
+                        <div class="desc ">
+                            Github
+                            <p class="sub-title ">我的一些前端代码</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href=" " target="_blank ">
+                    <div class="content ">
+                        <img src="images/logo.png " alt="">
+                        <div class="desc">
+                            Dribbble
+                            <p class="sub-title">我的一些设计作品</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            联系
+            <p class="sub-title">contact</p>
+        </div>
+        <div class="context">
+            <div class="qq">
+                <img src="images/social-qq.png" width="80" alt="">
+                <p>924463684</p>
+            </div>
+            <div class="email">
+                <img src="images/social-email.png" height="80" alt="">
+                <p>924463684@qq.com</p>
+            </div>
+        </div>
+
+    </section>
+    <footer class="main-footer">
+        <span class="left">
+	   	copyright©2017 JiaXin.Yi
+	   </span>
+        <span class="right">
+	   	技术支持 我本人
+	   </span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        window.onload = function () {
+            $('ul.menu li').each(function () {
+                var pos = $(this).attr('data-pos');
+                $(this).click(function () {
+                    $('body, html').animate({
+                        scrollTop: pos
+                    }, 1000)
+                })
+            })
+        }
+    </script>
 </body>
-<script type="text/javascript">
-    draw("myCanvas");
-</script>
 
 </html>
