@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "code": "P103241243",
+                "title": "万科项目二1",
+                "image": "assets/img/wanke.jpg",
+                "name": "刘伟",
+                "distance": "1公里"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36808621883391,
+                    23.1262069711399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code": "P103241244",
+                 "title": "万科项目二2",
+                "image": "assets/img/wanke.jpg",
+                "name": "刘伟",
+                "distance": "1公里"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36726546287537,
+                    23.12573336929522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code": "P103241245",
+                 "title": "万科项目二3",
+                "image": "assets/img/wanke.jpg",
+                "name": "刘伟",
+                "distance": "1公里"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36856901645659,
+                    23.125491634375873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code": "P103241246",
+                 "title": "万科项目二4",
+                "image": "assets/img/wanke.jpg",
+                "name": "刘伟",
+                "distance": "1公里"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36724400520325,
+                    23.126660838005535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code": "P103241247",
+                 "title": "万科项目二5",
+                "image": "assets/img/wanke.jpg",
+                "name": "刘伟",
+                "distance": "1公里"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36798429489134,
+                    23.12696177062422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code": "P103241248",
+                 "title": "万科项目二6",
+                "image": "assets/img/wanke.jpg",
+                "name": "刘伟",
+                "distance": "1公里"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.36870312690735,
+                    23.126650971350873
+                ]
+            }
+        }
+    ]
+}

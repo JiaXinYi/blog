@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      登陆页面
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="login-img">
+    <img src="assets/img/login_logo.png"/>
+  </div>
+  <ion-list>
+    <!--<ion-item>
+      <ion-label floating>用户名</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>密码</ion-label>
+      <ion-input type="password" value=""></ion-input>
+    </ion-item>-->
+    <ion-item>
+      <ion-label><ion-icon name="ios-person-outline"></ion-icon></ion-label>
+      <ion-input type="text" value="" placeholder="邮箱/用户名"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label><ion-icon name="ios-lock-outline"></ion-icon></ion-label>
+      <ion-input type="password" value="" placeholder="密码"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <div padding>
+    <button ion-button color="primary" block (click) = login()>登录</button>
+  </div>
+</ion-content>

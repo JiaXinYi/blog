@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script data-ionic="inject">
+    (function(w){var i=w.Ionic=w.Ionic||{};i.version='3.6.0';i.angular='4.1.3';i.staticDir='build/';})(window);
+  </script>
+  <meta charset="UTF-8">
+  <title>Ionic App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4e8ef7">
+
+  <!-- cordova.js required for cordova apps -->
+  <script src="cordova.js"></script>
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.error('Error', err));
+    }
+  </script>-->
+
+  <link href="build/main.css" rel="stylesheet">
+
+    <!-- Load Leaflet -->
+  <link rel="stylesheet" href="assets/lib/leaflet.css" />
+  <script src="assets/lib/leaflet.js"></script>
+  <script src="assets/lib/leaflet.ChineseTmsProviders.js"></script>
+
+  <!-- Load Esri Leaflet from source-->
+  <script src="assets/lib/esri-leaflet.js"></script>
+
+  <!-- load leaflet draw -->
+  <!-- <script src="assets/lib/leaflet.draw-custom.js"></script>
+  <link rel="stylesheet" href="assets/lib/leaflet.draw.css" /> -->
+   <script src="assets/lib/src/Leaflet.draw.js"></script>
+  <script src="assets/lib/src/Leaflet.Draw.Event.js"></script>
+  <link rel="stylesheet" href="assets/lib/src/leaflet.draw.css"/>
+
+  <script src="assets/lib/src/Toolbar.js"></script>
+  <script src="assets/lib/src/Tooltip.js"></script>
+
+  <script src="assets/lib/src/ext/GeometryUtil.js"></script>
+  <script src="assets/lib/src/ext/LatLngUtil.js"></script>
+  <script src="assets/lib/src/ext/LineUtil.Intersect.js"></script>
+  <script src="assets/lib/src/ext/Polygon.Intersect.js"></script>
+  <script src="assets/lib/src/ext/Polyline.Intersect.js"></script>
+  <script src="assets/lib/src/ext/TouchEvents.js"></script>
+
+  <script src="assets/lib/src/draw/DrawToolbar.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.Feature.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.SimpleShape.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.Polyline.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.Marker.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.Circle.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.CircleMarker.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.Polygon.js"></script>
+  <script src="assets/lib/src/draw/handler/Draw.Rectangle.js"></script>
+
+
+  <script src="assets/lib/src/edit/EditToolbar.js"></script>
+  <script src="assets/lib/src/edit/handler/EditToolbar.Edit.js"></script>
+  <script src="assets/lib/src/edit/handler/EditToolbar.Delete.js"></script>
+
+  <script src="assets/lib/src/Control.Draw.js"></script>
+
+  <script src="assets/lib/src/edit/handler/Edit.Poly.js"></script>
+  <script src="assets/lib/src/edit/handler/Edit.SimpleShape.js"></script>
+  <script src="assets/lib/src/edit/handler/Edit.Rectangle.js"></script>
+  <script src="assets/lib/src/edit/handler/Edit.Marker.js"></script>
+  <script src="assets/lib/src/edit/handler/Edit.CircleMarker.js"></script>
+  <script src="assets/lib/src/edit/handler/Edit.Circle.js"></script> 
+
+</head>
+<body>
+
+  <!-- Ionic's root component and where the app will load -->
+  <ion-app></ion-app>
+
+  <!-- The polyfills js is generated during the build process -->
+  <script src="build/polyfills.js"></script>
+
+  <!-- The vendor js is generated during the build process
+       It contains all of the dependencies in node_modules -->
+  <script src="build/vendor.js"></script>
+
+  <!-- The main bundle js is generated during the build process -->
+  <script src="build/main.js"></script>
+
+</body>
+</html>
