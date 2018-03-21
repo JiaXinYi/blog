@@ -11,7 +11,3 @@
 ![1](./Web-page/1.jpg)
 ![1](./Web-page/2.jpg)
 ![1](./Web-page/3.jpg)
-![1](./Web-page/4.jpg)
-![1](./Web-page/5.jpg)
-![1](./Web-page/6.jpg)
-![1](./Web-page/7.jpg)
