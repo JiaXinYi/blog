@@ -1,1 +1,149 @@
-webpackJsonp([3],{137:function(l,n,u){"use strict";function t(l){return o._23(0,[(l()(),o._22(null,["\n"])),(l()(),o._4(0,null,null,10,"ion-header",[],null,null,null,null,null)),o._3(16384,null,0,c.a,[d.a,o.k,o.E,[2,b.a]],null,null),(l()(),o._22(null,["\n\n  "])),(l()(),o._4(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,f.b,f.a)),o._3(49152,null,0,h.a,[g.a,[2,b.a],[2,k.a],d.a,o.k,o.E],null,null),(l()(),o._22(3,["\n    "])),(l()(),o._4(0,null,3,2,"ion-title",[],null,null,null,p.b,p.a)),o._3(49152,null,0,m.a,[d.a,o.k,o.E,[2,v.a],[2,h.a]],null,null),(l()(),o._22(0,["class"])),(l()(),o._22(3,["\n  "])),(l()(),o._22(null,["\n\n"])),(l()(),o._22(null,["\n\n\n"])),(l()(),o._4(0,null,null,2,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,y.b,y.a)),o._3(4374528,null,0,C.a,[d.a,E.a,w.a,o.k,o.E,g.a,P.a,o.y,[2,b.a],[2,k.a]],null,null),(l()(),o._22(1,["\n\n"])),(l()(),o._22(null,["\n"]))],null,function(l,n){l(n,4,0,o._16(n,5)._hidden,o._16(n,5)._sbPadding),l(n,13,0,o._16(n,14).statusbarPadding,o._16(n,14)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(0),a=(u(60),function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ClassPage")},l}()),e=function(){return function(){}}(),s=u(27),i=u(29),r=u(62),_=u(103),c=u(64),d=u(2),b=u(9),f=u(144),h=u(39),g=u(5),k=u(12),p=u(145),m=u(61),v=u(40),y=u(143),C=u(28),E=u(3),w=u(6),P=u(20),M=u(42),O=[],L=o._2({encapsulation:2,styles:O,data:{}}),B=o._1("page-class",a,function(l){return o._23(0,[(l()(),o._4(0,null,null,1,"page-class",[],null,null,null,t,L)),o._3(49152,null,0,a,[k.a,M.a],null,null)],null,null)},{},{},[]),F=u(63);u.d(n,"ClassPageModuleNgFactory",function(){return I});var x=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function t(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(t.prototype=u.prototype,new t)}}(),D=function(l){function n(n){return l.call(this,n,[_.a,B],[])||this}return x(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new s.i(this.parent.get(o.u))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new i.f),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new i.a),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new s.b,this._ɵba_1=new i.e,this._FormsModule_2=new i.b,this._ReactiveFormsModule_3=new i.d,this._IonicModule_4=new r.a,this._IonicPageModule_5=new r.b,this._ClassPageModule_6=new e,this._LAZY_LOADED_TOKEN_10=a,this._ClassPageModule_6},n.prototype.getInternal=function(l,n){return l===s.b?this._CommonModule_0:l===i.e?this._ɵba_1:l===i.b?this._FormsModule_2:l===i.d?this._ReactiveFormsModule_3:l===r.a?this._IonicModule_4:l===r.b?this._IonicPageModule_5:l===e?this._ClassPageModule_6:l===s.j?this._NgLocalization_7:l===i.f?this._ɵi_8:l===i.a?this._FormBuilder_9:l===F.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(o.Z),I=new o.v(D,e)},142:function(l,n,u){"use strict";function t(l){return o._23(2,[(l()(),o._4(0,null,null,1,"span",[["class","button-inner"]],null,null,null,null,null)),o._15(null,0),(l()(),o._4(0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],null,null)}u.d(n,"a",function(){return i}),n.b=t;var o=u(0),a=u(37),e=u(2),s=[],i=o._2({encapsulation:2,styles:s,data:{}});o._1("[ion-button]",a.a,function(l){return o._23(0,[(l()(),o._4(0,null,null,1,"div",[["ion-button",""]],null,null,null,t,i)),o._3(1097728,null,0,a.a,[[8,""],e.a,o.k,o.E],null,null)],null,null)},{color:"color",mode:"mode",large:"large",small:"small",default:"default",outline:"outline",clear:"clear",solid:"solid",round:"round",block:"block",full:"full",strong:"strong"},{},["*"])},143:function(l,n,u){"use strict";function t(l){return o._23(2,[o._20(402653184,1,{_fixedContent:0}),o._20(402653184,2,{_scrollContent:0}),(l()(),o._4(0,[[1,0],["fixedContent",1]],null,1,"div",[["class","fixed-content"]],null,null,null,null,null)),o._15(null,0),(l()(),o._4(0,[[2,0],["scrollContent",1]],null,1,"div",[["class","scroll-content"]],null,null,null,null,null)),o._15(null,1),o._15(null,2)],null,null)}u.d(n,"a",function(){return f}),n.b=t;var o=u(0),a=u(28),e=u(2),s=u(3),i=u(6),r=u(5),_=u(20),c=u(9),d=u(12),b=[],f=o._2({encapsulation:2,styles:b,data:{}});o._1("ion-content",a.a,function(l){return o._23(0,[(l()(),o._4(0,null,null,1,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,t,f)),o._3(4374528,null,0,a.a,[e.a,s.a,i.a,o.k,o.E,r.a,_.a,o.y,[2,c.a],[2,d.a]],null,null)],null,function(l,n){l(n,0,0,o._16(n,1).statusbarPadding,o._16(n,1)._hasRefresher)})},{color:"color",mode:"mode",fullscreen:"fullscreen",scrollDownOnLoad:"scrollDownOnLoad"},{ionScrollStart:"ionScrollStart",ionScroll:"ionScroll",ionScrollEnd:"ionScrollEnd"},["[ion-fixed],ion-fab","*","ion-refresher"])},144:function(l,n,u){"use strict";function t(l){return o._23(0,[(l()(),o._4(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),o._3(278528,null,0,a.f,[o.s,o.t,o.k,o.E],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._4(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0,o=l.component;return"click"===n&&(t=!1!==o.backButtonClick(u)&&t),t},s.b,s.a)),o._3(278528,null,0,a.f,[o.s,o.t,o.k,o.E],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._3(1097728,null,0,i.a,[[8,"bar-button"],r.a,o.k,o.E],null,null),(l()(),o._4(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._3(278528,null,0,a.f,[o.s,o.t,o.k,o.E],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._3(147456,null,0,_.a,[r.a,o.k,o.E],{name:[0,"name"]},null),(l()(),o._4(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),o._3(278528,null,0,a.f,[o.s,o.t,o.k,o.E],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),o._22(null,["",""])),o._15(null,0),o._15(null,1),o._15(null,2),(l()(),o._4(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),o._3(278528,null,0,a.f,[o.s,o.t,o.k,o.E],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._15(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,o._16(n,7)._hidden),l(n,10,0,u._backText)})}u.d(n,"a",function(){return h}),n.b=t;var o=u(0),a=u(27),e=u(39),s=u(142),i=u(37),r=u(2),_=u(38),c=u(5),d=u(9),b=u(12),f=[],h=o._2({encapsulation:2,styles:f,data:{}});o._1("ion-navbar",e.a,function(l){return o._23(0,[(l()(),o._4(0,null,null,1,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,t,h)),o._3(49152,null,0,e.a,[c.a,[2,d.a],[2,b.a],r.a,o.k,o.E],null,null)],null,function(l,n){l(n,0,0,o._16(n,1)._hidden,o._16(n,1)._sbPadding)})},{color:"color",mode:"mode",hideBackButton:"hideBackButton"},{},["[menuToggle],ion-buttons[left]","ion-buttons[start]","ion-buttons[end],ion-buttons[right]","*"])},145:function(l,n,u){"use strict";function t(l){return o._23(2,[(l()(),o._4(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),o._3(278528,null,0,a.f,[o.s,o.t,o.k,o.E],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._15(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return c}),n.b=t;var o=u(0),a=u(27),e=u(61),s=u(2),i=u(40),r=u(39),_=[],c=o._2({encapsulation:2,styles:_,data:{}});o._1("ion-title",e.a,function(l){return o._23(0,[(l()(),o._4(0,null,null,1,"ion-title",[],null,null,null,t,c)),o._3(49152,null,0,e.a,[s.a,o.k,o.E,[2,i.a],[2,r.a]],null,null)],null,null)},{color:"color",mode:"mode"},{},["*"])}});
+webpackJsonp([3],{
+
+/***/ 681:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OrderPageModule", function() { return OrderPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__order__ = __webpack_require__(693);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var OrderPageModule = (function () {
+    function OrderPageModule() {
+    }
+    OrderPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__order__["a" /* OrderPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__order__["a" /* OrderPage */]),
+            ],
+            exports: [__WEBPACK_IMPORTED_MODULE_2__order__["a" /* OrderPage */]]
+        })
+    ], OrderPageModule);
+    return OrderPageModule;
+}());
+
+//# sourceMappingURL=order.module.js.map
+
+/***/ }),
+
+/***/ 693:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrderPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(146);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the OrderPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var OrderPage = (function () {
+    function OrderPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.isClose = false;
+        this.score = {
+            star: 0,
+            starMap: [
+                '不满意',
+                '还行',
+                '一般',
+                '满意',
+                '很满意',
+            ]
+        };
+        this.slides = [
+            {
+                title: 'Dream\'s Adventure',
+                imageUrl: 'assets/img/bg.jpg',
+                songs: 2,
+                private: false
+            },
+            {
+                title: 'For the Weekend',
+                imageUrl: 'assets/img/slide1.jpeg',
+                songs: 4,
+                private: false
+            },
+            {
+                title: 'Family Time',
+                imageUrl: 'assets/img/bg.jpg',
+                songs: 5,
+                private: true
+            },
+            {
+                title: 'My Trip',
+                imageUrl: 'assets/img/slide2.jpeg',
+                songs: 12,
+                private: true
+            }
+        ];
+    }
+    OrderPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad OrderPage');
+    };
+    OrderPage.prototype.chooseStar = function (e) {
+        var star = parseInt(e.target.dataset.index);
+        this.score.star = star;
+        // console.log(e.target.dataset.index);
+        // console.log(this.score.star);
+        // console.log(star);
+    };
+    OrderPage.prototype.closeScore = function () {
+        this.isClose = true;
+    };
+    OrderPage.prototype.showSearch = function () {
+        this.navCtrl.push('SearchPage');
+    };
+    OrderPage.prototype.openMap = function () {
+        this.navCtrl.push('MapPage');
+    };
+    OrderPage.prototype.onSlideChanged = function () {
+        var currentIndex = this.slider.getActiveIndex();
+        console.log(currentIndex);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('slider'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */])
+    ], OrderPage.prototype, "slider", void 0);
+    OrderPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-order',template:/*ion-inline-start:"F:\ionic\and\src\pages\tabs\order\order.html"*/'<ion-content>\n\n\n\n  <!-- <div class="star-bg" *ngIf="!isClose">\n\n    <button class="star-btn" ion-button clear (click)="closeScore()" color="light"><ion-icon name="close"></ion-icon></button>\n\n    <div class="star-words">\n\n      <span>请为我们评分</span>\n\n    </div>\n\n    <div class="star-div" >\n\n      <div *ngFor="let scoreMap of score.starMap; let indx = index" (click)="chooseStar($event)">\n\n        <ion-icon name="star" color="chrome3" *ngIf="score.star>=indx+1;" style="padding-right: .5em" [attr.data-index]="indx+1"></ion-icon>\n\n        <ion-icon name="star-outline" color="light" *ngIf="score.star<indx+1;" style="padding-right: .5em" [attr.data-index]="indx+1"></ion-icon>\n\n      </div>\n\n    </div>\n\n  </div> -->\n\n  <div class="main-content">\n\n    <div class="search-div">\n\n      <ion-item no-lines>\n\n        <ion-searchbar class="search-bar" placeholder="英语文学" no-padding (ionFocus)="showSearch()">\n\n        </ion-searchbar>\n\n        <ion-icon name="ios-alarm-outline" class="icon-right" item-end (click)="show()"></ion-icon>\n\n        <ion-icon name="ios-download-outline" class="icon-right" item-end (click)="show()"></ion-icon>\n\n      </ion-item>\n\n    </div>\n\n    <div class="slide-img">\n\n      <ion-slides #slider pager autoplay="2000" loop="true" (ionSlideDidChange)="onSlideChanged()" dir="ltr">\n\n        <ion-slide *ngFor="let slide of slides" [ngStyle]="{\'background\':\'url(\' +slide.imageUrl+\')\'}">\n\n          <h2>{{slide.title}}</h2>\n\n        </ion-slide>\n\n      </ion-slides>\n\n    </div>\n\n    <div class="classify">\n\n      <div class="myGrid">\n\n        <ion-grid>\n\n          <ion-row>\n\n            <ion-col col-4>\n\n              <ion-icon name="md-archive" color="beauty1"></ion-icon>\n\n            </ion-col>\n\n            <ion-col col-4>\n\n              <ion-icon name="heart" color="beauty4"></ion-icon>\n\n            </ion-col>\n\n            <ion-col col-4>\n\n              <ion-icon name="md-pie" color="beauty2"></ion-icon>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col col-4>\n\n              <span>视频分类</span></ion-col>\n\n            <ion-col col-4>\n\n              <span>添加订阅</span></ion-col>\n\n            <ion-col col-4>\n\n              <span>我的订阅</span></ion-col>\n\n          </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n    </div>\n\n    <hr no-margin>\n\n    <div class="parts-order">\n\n      <div class="order-title">\n\n        <h4 text-center no-margin>我的订阅</h4>\n\n        <hr class="short-hr" no-padding>\n\n      </div>\n\n      <div class="order-cards">\n\n        <ion-item no-lines>\n\n          <ion-avatar float-left padding-right>\n\n            <img src="assets/img/slide1.jpeg" alt="TED">\n\n          </ion-avatar>\n\n          <h2>每日TED优选</h2>\n\n          <p>2017/01/05</p>\n\n          <button ion-button color="secondary" item-end>订阅</button>\n\n        </ion-item>\n\n        <div class="img-div">\n\n          <img src="assets/img/slide1.jpeg" alt="" class="order-img">\n\n          <div class="img-words" padding>\n\n            <h5>如何掌控你们自己的时间</h5>\n\n            <p>经常听见有人抱怨自己很忙，没时间做这个，没时间做哪个。情况真实是这样的吗？</p>\n\n          </div>\n\n        </div>\n\n        <div class="span-div">\n\n          <span float-left>11`55``&nbsp;|&nbsp;4387万人观看</span>\n\n          <span float-right>#视频</span>\n\n        </div>\n\n\n\n      </div>\n\n      <div class="order-cards">\n\n        <ion-item no-lines>\n\n          <ion-avatar float-left padding-right>\n\n            <img src="assets/img/slide1.jpeg" alt="TED">\n\n          </ion-avatar>\n\n          <h2>每日TED优选</h2>\n\n          <p>2017/01/05</p>\n\n          <button ion-button color="secondary" item-end>订阅</button>\n\n        </ion-item>\n\n        <div class="img-div">\n\n          <img src="assets/img/slide1.jpeg" alt="" class="order-img">\n\n          <div class="img-words">\n\n            <h5>如何掌控你们自己的时间</h5>\n\n            <p>经常听见有人抱怨自己很忙，没时间做这个，没时间做哪个。情况真实是这样的吗？</p>\n\n          </div>\n\n        </div>\n\n        <div class="span-div">\n\n          <span float-left>11`55``&nbsp;|&nbsp;4387万人观看</span>\n\n          <span float-right>#视频</span>\n\n        </div>\n\n\n\n      </div>\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\ionic\and\src\pages\tabs\order\order.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], OrderPage);
+    return OrderPage;
+}());
+
+//# sourceMappingURL=order.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=3.js.map
