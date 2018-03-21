@@ -1,11 +1,11 @@
 # 那些年的PS&AI
 ## 1.logo设计
 ![1](./logo/1.jpg)
-![1](./logo/2.jpg)
-![1](./logo/3.jpg)
-![1](./logo/4.jpg)
+![1](./logo/2.png)
+![1](./logo/3.png)
+![1](./logo/4.png)
 ![1](./logo/5.jpg)
-![1](./logo/6.jpg)
+![1](./logo/6.png)
 
 ## 2.矢量图
 ![1](./design/7.jpg)
